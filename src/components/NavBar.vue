@@ -1,6 +1,6 @@
 <!--Header component with links to other parts of the doc-->
 <template>
-  <nav class="navbar fixed-top navbar-expand navbar-dark bg-danger">
+  <nav class="navbar fixed-top navbar-expand navbar-dark bg-dark">
     <div class="container-fluid justify-content-center">
       <div class="navbar-header">
         <a class="navbar-brand" href="#">Will Hines</a>
