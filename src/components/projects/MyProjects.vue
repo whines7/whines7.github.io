@@ -1,14 +1,9 @@
 <template>
-  <head>
-
-  </head>
-  <body>
-    <div id="projects" class="projects text-danger bg-success">
-      <div class="container">
-        <h1>This is the projects section</h1>
-      </div>
+  <div id="projects" class="projects text-danger">
+    <div class="container">
+      <h1>This is the projects section</h1>
     </div>
-  </body>
+  </div>
 </template>
 
 <script>

@@ -1,15 +1,10 @@
 <template>
-  <head>
-
-  </head>
-  <body>
-    <div class="not-found bg-success text-light">
-      <div class="row h-100 justify-content-cetner align-items-center">
-        <h1>404 Not Found</h1>
-        <h3>Sorry, the page you are looking for could not be found.</h3>
-      </div>
+  <div class="not-found bg-success text-light">
+    <div class="row h-100 justify-content-cetner align-items-center">
+      <h1>404 Not Found</h1>
+      <h3>Sorry, the page you are looking for could not be found.</h3>
     </div>
-  </body>
+  </div>
 </template>
 
 <script>

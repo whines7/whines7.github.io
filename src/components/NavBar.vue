@@ -3,7 +3,7 @@
   <nav class="navbar fixed-top navbar-expand navbar-dark bg-dark">
     <div class="container-fluid justify-content-center">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#">Will Hines</a>
+        <a class="navbar-brand" href="#">William Hines</a>
       </div>
       <ul class="nav navbar-nav mb-2 mb-lg-0">
         <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>

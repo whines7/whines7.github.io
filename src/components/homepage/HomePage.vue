@@ -1,12 +1,8 @@
 <template>
-  <head>
-
-  </head>
-  <body>
+  <div id="home">
     <MyNameIsWill />
     <AboutMe />
-  </body>
-  
+  </div>
 </template>
 
 <script>
@@ -21,20 +17,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-body {
-  background-image: url('../../assets/geo.jpg');
-  min-height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.bg {
-  height: 100%;
-}
-</style>
