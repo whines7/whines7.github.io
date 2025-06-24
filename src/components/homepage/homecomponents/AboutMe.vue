@@ -1,6 +1,9 @@
 <template>
   <div class="about text-light" id="about">
     <div class="container">
+      <div class="row justify-content-center py-4">
+          <img src="../../../assets/Attonfull.jpg" alt="Selfie" class="img-thumbnail" id="selfPicture" />
+      </div>
       <div class="row">
         <h1>About</h1>
       </div>      
@@ -35,5 +38,10 @@ h1 {
 
 p {
   font-size: 2rem;
+}
+
+#selfPicture {
+  width: 500px;
+  height: 400px;
 }
 </style>
