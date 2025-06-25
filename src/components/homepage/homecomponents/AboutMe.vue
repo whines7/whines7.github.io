@@ -1,23 +1,17 @@
 <template>
   <div class="about text-light" id="about">
     <div class="container">
-      <div class="row justify-content-center py-4">
-          <img src="../../../assets/Attonfull.jpg" alt="Selfie" class="img-thumbnail" id="selfPicture" />
-      </div>
-      <div class="row">
-        <h1>About</h1>
-      </div>      
-      <div class="row">
+      <div class="row mt-3">
         <p>
-          I'm currently a student in my Senior year studying Computer Science at Southern Illinois University Edwardsville.
-          At the moment I am expected to graduate in the Spring of 2023.
-          My interest in programming stems from my avid use of technology in daily life.
-          I began programming as a way to create things that help me in all different facets of life, and I'm passionate about using my knowledge to help others as well.
+          Hi, I'm William (Will) Hines, a recent graduate with an enthusiasm for technology and a passion for learning. My degree is in Criminal Justice, but I have taken many Computer Science classes. Recently, I have also finished the CompTIA A+ certification.
         </p>
         <br />
         <p>
-          Besides programming my hobbies include: travel, basketball, weightlifting, gaming, and visiting art museums. I have a minor in Art History.
+          Some of my hobbies that don't involve technology include: travel, basketball and visiting art museums.
         </p>
+      </div>
+      <div class="row justify-content-center py-4">
+          <img src="../../../assets/Attonfull.jpg" alt="Selfie" class="img-thumbnail" id="selfPicture" />
       </div>
     </div>
   </div>
@@ -32,10 +26,6 @@ export default {
 </script>
 
 <style scoped>
-h1 {
-  font-size: 3.5rem;
-}
-
 p {
   font-size: 2rem;
 }

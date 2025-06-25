@@ -1,5 +1,5 @@
 <template>
-  <div id="links" class="links text-light bg-success pt-3">
+  <div id="links" class="links text-light pt-3">
     <div class="container">
       <div class="row">
         <h1>Links</h1>

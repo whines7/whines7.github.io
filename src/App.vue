@@ -2,18 +2,13 @@
 Implement Links/Contact Page. Will probably need to figure out how to make it take whole screen. If extra time style not found page similarly.
 -->
 <template>
-  <!DOCTYPE html>
-  <html lang="en-us">
-    <head>
-    </head>
-    <body>
-      <NavBar />
-        <div class="screen pt-5 pb-4 bg-success">
-          <component :is="currentView" />
-        </div>
-      <FooterBar />
-    </body>
-  </html>
+  <div id="app">
+    <NavBar />
+    <div class="screen pt-5 pb-4 bg-success">
+      <component :is="currentView" />
+    </div>
+    <FooterBar />
+  </div>
 </template>
 
 <script>
@@ -40,7 +35,6 @@ export default {
   },
   computed: {
     currentView() {
-      console.log(this.currentPath.slice(1))
       return routes[this.currentPath.slice(1) || '/'] || NotFound
     }
   },
