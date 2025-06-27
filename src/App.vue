@@ -1,19 +1,14 @@
-<!--Thurs 6/16:
-Implement Links/Contact Page. Will probably need to figure out how to make it take whole screen. If extra time style not found page similarly.
--->
 <template>
   <div id="app">
     <NavBar />
-    <div class="screen pt-5 pb-4 bg-success">
+    <div class="screen pt-5 pb-4 bg-dark">
       <component :is="currentView" />
     </div>
-    <FooterBar />
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
-import FooterBar from './components/FooterBar.vue'
 import HomePage from './components/homepage/HomePage.vue'
 import NotFound from './components/notfound/NotFound.vue'
 import MySkills from './components/skills/MySkills.vue'
@@ -52,7 +47,6 @@ export default {
   name: 'App',
   components: {
     NavBar,
-    FooterBar,
   }
 }
 </script>
