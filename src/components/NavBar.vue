@@ -11,7 +11,6 @@
         <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
         <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
         <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-        <li class="nav-item"><a href="#links" class="nav-link">Links</a></li>
       </ul>
     </div>
   </nav>

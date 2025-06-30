@@ -1,6 +1,6 @@
 <template>
   <div class="about text-light" id="about">
-    <div class="container">
+    <div class="container mt-5">
       <div class="row">
         <div class="col">
           <div class="row">
@@ -13,20 +13,34 @@
               Will Hines
             </h1>
           </div>
+          <div class="row">
+            <h4>
+              Recent graduate with a passion for technology and learning.
+            </h4>
+          </div>
+          <div class="row">
+            <div class="col sm-4">
+              <a target="_blank" href="https://drive.google.com/file/d/1ivMAK9KVlnRY-hKwfGja4N8md-14wiSb/view?usp=sharing" class="btn btn-lg btn-light" role="button">Résumé</a>
+            </div>
+            <div class="col sm-4">
+              <a href="mailto:bhines7@gmail.com" class="btn btn-lg btn-light" role="button">Email Me</a>
+            </div>
+          </div>
         </div>
         <div class="col">
             <img src="../../../assets/Attonfull.jpg" alt="Selfie" class="img-thumbnail" id="selfPicture" />
         </div>
       </div>
-      <!--Removal in progress
-      <div class="row mt-3">
-        <p>
-          Hi, I'm William (Will) Hines, a recent graduate with an enthusiasm for technology and a passion for learning. My degree is in Criminal Justice, but I have taken many Computer Science classes. Recently, I have also finished the CompTIA A+ certification.
-        </p>
-        <br />
-        <p>
-          Some of my hobbies that don't involve technology include: travel, basketball and visiting art museums.
-        </p>
+      <!-- 
+      <div class="row justify-content-center">
+        <div class="col-sm-4">
+          <a target="_blank" href="https://drive.google.com/file/d/1ivMAK9KVlnRY-hKwfGja4N8md-14wiSb/view?usp=sharing" class="btn btn-lg btn-light" role="button">Résumé</a>             
+        </div>
+      </div>
+      <div class="row justify-content-center py-1">
+        <div class="col-sm-4">
+          <a href="mailto:bhines7@gmail.com" class="btn btn-lg btn-light" role="button">Email</a>
+        </div>
       </div>
       -->
     </div>

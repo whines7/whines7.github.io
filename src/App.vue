@@ -12,13 +12,11 @@ import NavBar from './components/NavBar.vue'
 import HomePage from './components/homepage/HomePage.vue'
 import NotFound from './components/notfound/NotFound.vue'
 import MySkills from './components/skills/MySkills.vue'
-import MyLinks from './components/links/MyLinks.vue'
 import MyProjects from './components/projects/MyProjects.vue'
 
 const routes = {
   '/': HomePage,
   'skills': MySkills,
-  'links': MyLinks,
   'projects': MyProjects
 }
 
