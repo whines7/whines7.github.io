@@ -1,5 +1,5 @@
 <template>
-  <div id="skills" class="skills text-danger">
+  <div id="skills" class="skills text-success">
     <div class="container">
         <div class="row">
             <h1>My Skills</h1>
@@ -8,20 +8,17 @@
           <div class="col-sm-6">
             <h1 id="cSharp">C#</h1>
             <div class="text-light">
-              <h3>C#</h3>
               <p>
                 I have over 3 years of experience working with C#. In my work at Foresight, 
-                C# was the primary language used for back-end development. I have additional experience with the language from my Software Development class,
-                as well as some of my projects such as (Clue solver).
-                </p>
+                C# was the primary language used for back-end development. I have additional experience with the language from my Software Development class.
+              </p>
             </div>
           </div>
           <div class="col-sm-6">
             <h1 id="cPlusPlus">C++</h1>
             <div class="text-light">
-              <h3>C, C++</h3>
               <p>
-                I have a reasonable amount of experience in both C and C++ from the higher level classes I have taken.
+                I have a small amount of experience in both C and C++ from the higher level classes I have taken.
               </p>
             </div>
           </div>
@@ -33,7 +30,7 @@
               <h3>Java</h3>
               <p>
                 Java was the first language I learned. While I have not used it as much recently, I consider myself proficient in it due to
-                using it in many classes as well as in some of my early basic personal projects.
+                using it in many classes as well as in some of my earliest personal projects.
               </p>
             </div>
           </div>
@@ -42,8 +39,7 @@
             <div class="text-light">
               <h3>Python</h3>
               <p>
-                I have some familiarity with python. It was briefly used in my time at Foresight as part of an in-house app until that app was discontinued.
-                My first working version of (Clue Solver) was also created in python.
+                I have some familiarity with python. It was briefly used in my time at Foresight as part of an in-house app.
               </p>
             </div>
           </div>
