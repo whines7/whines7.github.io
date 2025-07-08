@@ -13,36 +13,30 @@
               Will Hines
             </h1>
           </div>
-          <div class="row">
+          <div class="row mt-4">
             <h4>
               Recent graduate with a passion for technology and learning.
             </h4>
           </div>
-          <div class="row">
+          <div class="row mt-4">
             <div class="col sm-4">
-              <a target="_blank" href="https://drive.google.com/file/d/1ivMAK9KVlnRY-hKwfGja4N8md-14wiSb/view?usp=sharing" class="btn btn-lg btn-light" role="button">Résumé</a>
+              <a target="_blank" href="https://drive.google.com/file/d/1ivMAK9KVlnRY-hKwfGja4N8md-14wiSb/view?usp=sharing" class="btn btn-lg btn-outline-success" role="button">
+                Résumé
+                <i class="fa-solid fa-file-lines"></i>
+              </a>
             </div>
             <div class="col sm-4">
-              <a href="mailto:bhines7@gmail.com" class="btn btn-lg btn-light" role="button">Email Me</a>
+              <a href="mailto:bhines7@gmail.com" class="btn btn-lg btn-outline-success" role="button">
+                Email Me
+                <i class="fa-solid fa-envelope"></i>
+              </a>
             </div>
           </div>
         </div>
         <div class="col">
-            <img src="../../../assets/Attonfull.jpg" alt="Selfie" class="img-thumbnail" id="selfPicture" />
+          <img src="../../../assets/Attonfull.jpg" class="border border-success rounded-circle" alt="Selfie" id="selfPicture" />
         </div>
       </div>
-      <!-- 
-      <div class="row justify-content-center">
-        <div class="col-sm-4">
-          <a target="_blank" href="https://drive.google.com/file/d/1ivMAK9KVlnRY-hKwfGja4N8md-14wiSb/view?usp=sharing" class="btn btn-lg btn-light" role="button">Résumé</a>             
-        </div>
-      </div>
-      <div class="row justify-content-center py-1">
-        <div class="col-sm-4">
-          <a href="mailto:bhines7@gmail.com" class="btn btn-lg btn-light" role="button">Email</a>
-        </div>
-      </div>
-      -->
     </div>
   </div>
 </template>
