@@ -19,13 +19,15 @@
             </h4>
           </div>
           <div class="row mt-4">
-            <div class="col sm-4">
+            <div class="col">
               <a target="_blank" href="https://drive.google.com/file/d/1ivMAK9KVlnRY-hKwfGja4N8md-14wiSb/view?usp=sharing" class="btn btn-lg btn-outline-success" role="button">
                 Résumé
                 <i class="fa-solid fa-file-lines"></i>
               </a>
             </div>
-            <div class="col sm-4">
+          </div>
+          <div class="row mt-2">
+            <div class="col">
               <a href="mailto:bhines7@gmail.com" class="btn btn-lg btn-outline-success" role="button">
                 Email Me
                 <i class="fa-solid fa-envelope"></i>
