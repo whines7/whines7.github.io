@@ -36,7 +36,7 @@
           </div>
         </div>
         <div class="col">
-          <img src="../../../assets/Attonfull.jpg" class="border border-success rounded-circle" alt="Selfie" id="selfPicture" />
+          <img src="../../../assets/SelfPicture.jpg" class="border border-success rounded-circle" alt="Selfie" id="selfPicture" />
         </div>
       </div>
     </div>
